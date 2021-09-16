@@ -19,7 +19,14 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # baseUrl: /status
   cname: status.subspace.network
-  customHeadHtml: "<!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-0NTTGF93D6"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-0NTTGF93D6');</script>"
+  customHeadHtml: "<!-- Global site tag (gtag.js) - Google Analytics -->"
+  customHeadHtml: "<script async src="https://www.googletagmanager.com/gtag/js?id=G-0NTTGF93D6"></script>"
+  customHeadHtml: "<script>"
+  customHeadHtml: "window.dataLayer = window.dataLayer || [];"
+  customHeadHtml: "function gtag(){dataLayer.push(arguments);}"
+  customHeadHtml: "gtag('js', new Date());"
+  customHeadHtml: "gtag('config', 'G-0NTTGF93D6');"
+  customHeadHtml: "</script>"
   theme: light
   favicon: https://uploads-ssl.webflow.com/6108908c3729aa7f2ffe5c29/610890e755d89332b2d39351_cee1c0fb-subspace-logo_102e02c000000000000028.png
   logoUrl: https://uploads-ssl.webflow.com/6108908c3729aa7f2ffe5c29/610890e755d89332b2d39351_cee1c0fb-subspace-logo_102e02c000000000000028.png
