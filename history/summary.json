@@ -37,28 +37,28 @@
   },
   {
     "name": "Polkadot-App",
-    "url": "http://dev-polkadotapp.subspace.network:8080",
-    "icon": "https://favicons.githubusercontent.com/dev-polkadotapp.subspace.network",
+    "url": "dev-polkadotapp.subspace.network",
+    "icon": "https://favicons.githubusercontent.com/null",
     "slug": "polkadot-app",
     "status": "up",
-    "uptime": "68.93%",
-    "uptimeDay": "68.93%",
-    "uptimeWeek": "68.93%",
-    "uptimeMonth": "68.93%",
-    "uptimeYear": "68.93%",
+    "uptime": "3.09%",
+    "uptimeDay": "3.09%",
+    "uptimeWeek": "3.09%",
+    "uptimeMonth": "3.09%",
+    "uptimeYear": "3.09%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2021-09-16": 0
+      "2021-09-16": 74
     }
   },
   {
     "name": "Polkascan-App",
-    "url": "https://dev-polkascan.subspace.network",
-    "icon": "https://favicons.githubusercontent.com/dev-polkascan.subspace.network",
+    "url": "dev-polkascan.subspace.network",
+    "icon": "https://favicons.githubusercontent.com/null",
     "slug": "polkascan-app",
     "status": "up",
     "uptime": "100.00%",
@@ -75,22 +75,22 @@
   },
   {
     "name": "Development RPC Endpoint",
-    "url": "https://dev-rpc.subspace.network",
-    "icon": "https://favicons.githubusercontent.com/dev-rpc.subspace.network",
+    "url": "dev-rpc.subspace.network",
+    "icon": "https://favicons.githubusercontent.com/null",
     "slug": "development-rpc-endpoint",
     "status": "up",
-    "uptime": "5.87%",
-    "uptimeDay": "5.87%",
-    "uptimeWeek": "5.87%",
-    "uptimeMonth": "5.87%",
-    "uptimeYear": "5.87%",
+    "uptime": "2.70%",
+    "uptimeDay": "2.70%",
+    "uptimeWeek": "2.70%",
+    "uptimeMonth": "2.70%",
+    "uptimeYear": "2.70%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2021-09-16": 0
+      "2021-09-16": 74
     }
   }
 ]
