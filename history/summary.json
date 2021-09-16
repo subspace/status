@@ -2,7 +2,7 @@
   {
     "name": "Subspace Labs Website",
     "url": "https://www.subspace.network",
-    "icon": "https://uploads-ssl.webflow.com/6108908c3729aa7f2ffe5c29/610890e755d89332b2d39351_cee1c0fb-subspace-logo_102e02c000000000000028.png",
+    "icon": "https://favicons.githubusercontent.com/www.subspace.network",
     "slug": "subspace-labs-website",
     "status": "up",
     "uptime": "100.00%",
@@ -11,7 +11,7 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 201,
-    "timeDay": 201,
+    "timeDay": 294,
     "timeWeek": 201,
     "timeMonth": 201,
     "timeYear": 201,
@@ -20,7 +20,7 @@
   {
     "name": "Spartan Testnet",
     "url": "165.232.157.230",
-    "icon": "https://uploads-ssl.webflow.com/6108908c3729aa7f2ffe5c29/610890e755d89332b2d39351_cee1c0fb-subspace-logo_102e02c000000000000028.png",
+    "icon": "https://favicons.githubusercontent.com/null",
     "slug": "spartan-testnet",
     "status": "up",
     "uptime": "100.00%",
@@ -29,10 +29,68 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 59,
-    "timeDay": 59,
+    "timeDay": 50,
     "timeWeek": 59,
     "timeMonth": 59,
     "timeYear": 59,
     "dailyMinutesDown": {}
+  },
+  {
+    "name": "Polkadot-App",
+    "url": "http://dev-polkadotapp.subspace.network:8080",
+    "icon": "https://favicons.githubusercontent.com/dev-polkadotapp.subspace.network",
+    "slug": "polkadot-app",
+    "status": "up",
+    "uptime": "81.24%",
+    "uptimeDay": "81.24%",
+    "uptimeWeek": "81.24%",
+    "uptimeMonth": "81.24%",
+    "uptimeYear": "81.24%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2021-09-16": 0
+    }
+  },
+  {
+    "name": "Polkascan-App",
+    "url": "https://dev-polkascan.subspace.network",
+    "icon": "https://favicons.githubusercontent.com/dev-polkascan.subspace.network",
+    "slug": "polkascan-app",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "Development RPC Endpoint",
+    "url": "https://dev-rpc.subspace.network",
+    "icon": "https://favicons.githubusercontent.com/dev-rpc.subspace.network",
+    "slug": "development-rpc-endpoint",
+    "status": "up",
+    "uptime": "22.41%",
+    "uptimeDay": "22.41%",
+    "uptimeWeek": "22.41%",
+    "uptimeMonth": "22.41%",
+    "uptimeYear": "22.41%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2021-09-16": 0
+    }
   }
 ]
