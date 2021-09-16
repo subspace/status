@@ -16,7 +16,6 @@ sites:
   - name: "Polkadot-App"
     check: "tcp-ping"
     url: dev-polkadotapp.subspace.network
-    port: 8080
   - name: "Polkascan-App"
     check: "tcp-ping"
     url: "dev-polkascan.subspace.network"
