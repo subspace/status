@@ -19,10 +19,6 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # baseUrl: /status
   cname: status.subspace.network
-  js:
-    - src: https://www.googletagmanager.com/gtag/js?id=G-0NTTGF93D6
-      async: true
-    - src: https://status.subspace.network/google-analytics.js
   theme: light
   favicon: https://uploads-ssl.webflow.com/6108908c3729aa7f2ffe5c29/610890e755d89332b2d39351_cee1c0fb-subspace-logo_102e02c000000000000028.png
   logoUrl: https://uploads-ssl.webflow.com/6108908c3729aa7f2ffe5c29/610890e755d89332b2d39351_cee1c0fb-subspace-logo_102e02c000000000000028.png
@@ -39,7 +35,6 @@ status-website:
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
-
 
 i18n:
   footer: This page is [open source]($REPO), powered by [Upptime](https://upptime.js.org)
