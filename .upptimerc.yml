@@ -14,11 +14,15 @@ sites:
     port: 30333
     #icon: https://uploads-ssl.webflow.com/6108908c3729aa7f2ffe5c29/610890e755d89332b2d39351_cee1c0fb-subspace-logo_102e02c000000000000028.png
   - name: "Polkadot-App"
-    url: http://dev-polkadotapp.subspace.network:8080
+    check: "tcp-ping"
+    url: dev-polkadotapp.subspace.network
+    port: 8080
   - name: "Polkascan-App"
-    url: "https://dev-polkascan.subspace.network"
+    check: "tcp-ping"
+    url: "dev-polkascan.subspace.network"
   - name: "Development RPC Endpoint"
-    url: "https://dev-rpc.subspace.network"
+    check: "tcp-ping"
+    url: "dev-rpc.subspace.network"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
