@@ -4,18 +4,20 @@
     "url": "https://www.subspace.network",
     "icon": "https://favicons.githubusercontent.com/www.subspace.network",
     "slug": "subspace-labs-website",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 148,
-    "timeDay": 98,
-    "timeWeek": 85,
-    "timeMonth": 148,
-    "timeYear": 148,
-    "dailyMinutesDown": {}
+    "time": 146,
+    "timeDay": 91,
+    "timeWeek": 87,
+    "timeMonth": 146,
+    "timeYear": 146,
+    "dailyMinutesDown": {
+      "2021-09-27": 1
+    }
   },
   {
     "name": "Spartan Testnet",
@@ -30,7 +32,7 @@
     "uptimeYear": "100.00%",
     "time": 58,
     "timeDay": 0,
-    "timeWeek": 65,
+    "timeWeek": 64,
     "timeMonth": 58,
     "timeYear": 58,
     "dailyMinutesDown": {}
@@ -47,8 +49,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 45,
-    "timeDay": 58,
-    "timeWeek": 47,
+    "timeDay": 46,
+    "timeWeek": 46,
     "timeMonth": 45,
     "timeYear": 45,
     "dailyMinutesDown": {}
@@ -65,7 +67,7 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 18,
-    "timeDay": 9,
+    "timeDay": 13,
     "timeWeek": 8,
     "timeMonth": 18,
     "timeYear": 18,
@@ -82,11 +84,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 23,
-    "timeDay": 13,
-    "timeWeek": 8,
-    "timeMonth": 23,
-    "timeYear": 23,
+    "time": 22,
+    "timeDay": 9,
+    "timeWeek": 9,
+    "timeMonth": 22,
+    "timeYear": 22,
     "dailyMinutesDown": {}
   }
 ]
