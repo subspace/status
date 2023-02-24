@@ -4,24 +4,38 @@ repo: status # The name of this repository
 
 assignees:
   - ImmaZoni
+  - isSerge
 sites:
   - name: Subspace Labs Website
     url: https://www.subspace.network
-    #icon: https://uploads-ssl.webflow.com/6108908c3729aa7f2ffe5c29/610890e755d89332b2d39351_cee1c0fb-subspace-logo_102e02c000000000000028.png
-  - name: Spartan Testnet
+  - name: "Gemini-II EU-0 RPC endpoint"
     check: "tcp-ping"
-    url: 165.232.157.230
-    port: 30333
-    #icon: https://uploads-ssl.webflow.com/6108908c3729aa7f2ffe5c29/610890e755d89332b2d39351_cee1c0fb-subspace-logo_102e02c000000000000028.png
-  - name: "Polkadot-App"
+    url: "eu-0.gemini-2a.subspace.network"
+  - name: "Gemini-II EU-1 RPC endpoint"
     check: "tcp-ping"
-    url: dev-polkadotapp.subspace.network
-  - name: "Polkascan-App"
+    url: "eu-1.gemini-2a.subspace.network"
+  - name: "Gemini-II EU-2 RPC endpoint"
     check: "tcp-ping"
-    url: "dev-polkascan.subspace.network"
-  - name: "Development RPC Endpoint"
+    url: "eu-2.gemini-2a.subspace.network"
+  - name: "Gemini-III EU-0 RPC endpoint"
     check: "tcp-ping"
-    url: "dev-rpc.subspace.network"
+    url: "eu-0.gemini-3c.subspace.network"
+  - name: "Gemini-III EU-1 RPC endpoint"
+    check: "tcp-ping"
+    url: "eu-1.gemini-3c.subspace.network"
+  - name: "Gemini-III EU-2 RPC endpoint"
+    check: "tcp-ping"
+    url: "eu-2.gemini-3c.subspace.network"
+  # perform easiest queries for GraphQL endpoints
+  # for more details: https://www.apollographql.com/docs/apollo-server/monitoring/health-checks/#graphql-level-health-checks
+  - name: "Gemini-II Subsquid archive GraphQL endpoint"
+    url: "archive.gemini-2a.subspace.network/graphql?query=%7B__typename%7D"
+  - name: "Gemini-III Subsquid archive GraphQL endpoint"
+    url: "archive.gemini-3b.subspace.network/graphql?query=%7B__typename%7D"
+  - name: "Gemini-II block explorer squid GraphQL endpoint"
+    url: "squid.gemini-2a.subspace.network/graphql?query=%7B__typename%7D"
+  - name: "Gemini-III block explorer squid GraphQL endpoint"
+    url: "squid.gemini-3b.subspace.network/graphql?query=%7B__typename%7D"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
