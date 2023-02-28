@@ -30,50 +30,10 @@
     "uptimeYear": "100.00%",
     "time": 115,
     "timeDay": 0,
-    "timeWeek": 115,
+    "timeWeek": 0,
     "timeMonth": 115,
     "timeYear": 115,
     "dailyMinutesDown": {}
-  },
-  {
-    "name": "Gemini-II EU-1 RPC endpoint",
-    "url": "eu-1.gemini-2a.subspace.network",
-    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
-    "slug": "gemini-ii-eu-1-rpc-endpoint",
-    "status": "down",
-    "uptime": "99.93%",
-    "uptimeDay": "99.73%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
-    "dailyMinutesDown": {
-      "2023-02-24": 4
-    }
-  },
-  {
-    "name": "Gemini-II EU-2 RPC endpoint",
-    "url": "eu-2.gemini-2a.subspace.network",
-    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
-    "slug": "gemini-ii-eu-2-rpc-endpoint",
-    "status": "down",
-    "uptime": "99.93%",
-    "uptimeDay": "99.73%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
-    "dailyMinutesDown": {
-      "2023-02-24": 4
-    }
   },
   {
     "name": "Gemini-III EU-0 RPC endpoint",
@@ -88,7 +48,7 @@
     "uptimeYear": "100.00%",
     "time": 115,
     "timeDay": 0,
-    "timeWeek": 115,
+    "timeWeek": 0,
     "timeMonth": 115,
     "timeYear": 115,
     "dailyMinutesDown": {}
@@ -106,7 +66,7 @@
     "uptimeYear": "100.00%",
     "time": 115,
     "timeDay": 0,
-    "timeWeek": 115,
+    "timeWeek": 0,
     "timeMonth": 115,
     "timeYear": 115,
     "dailyMinutesDown": {}
@@ -124,7 +84,7 @@
     "uptimeYear": "100.00%",
     "time": 115,
     "timeDay": 0,
-    "timeWeek": 115,
+    "timeWeek": 0,
     "timeMonth": 115,
     "timeYear": 115,
     "dailyMinutesDown": {}
@@ -142,7 +102,7 @@
     "uptimeYear": "100.00%",
     "time": 452,
     "timeDay": 0,
-    "timeWeek": 452,
+    "timeWeek": 0,
     "timeMonth": 452,
     "timeYear": 452,
     "dailyMinutesDown": {}
@@ -160,7 +120,7 @@
     "uptimeYear": "100.00%",
     "time": 454,
     "timeDay": 0,
-    "timeWeek": 454,
+    "timeWeek": 0,
     "timeMonth": 454,
     "timeYear": 454,
     "dailyMinutesDown": {}
@@ -178,7 +138,7 @@
     "uptimeYear": "100.00%",
     "time": 727,
     "timeDay": 0,
-    "timeWeek": 727,
+    "timeWeek": 0,
     "timeMonth": 727,
     "timeYear": 727,
     "dailyMinutesDown": {}
@@ -196,7 +156,7 @@
     "uptimeYear": "100.00%",
     "time": 451,
     "timeDay": 0,
-    "timeWeek": 451,
+    "timeWeek": 0,
     "timeMonth": 451,
     "timeYear": 451,
     "dailyMinutesDown": {}
