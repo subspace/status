@@ -34,8 +34,8 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  baseUrl: /status
-  # cname: status.subspace.network
+  # baseUrl: /status
+  cname: status.subspace.network
   theme: light
   favicon: https://uploads-ssl.webflow.com/6108908c3729aa7f2ffe5c29/610890e755d89332b2d39351_cee1c0fb-subspace-logo_102e02c000000000000028.png
   logoUrl: https://uploads-ssl.webflow.com/6108908c3729aa7f2ffe5c29/610890e755d89332b2d39351_cee1c0fb-subspace-logo_102e02c000000000000028.png
