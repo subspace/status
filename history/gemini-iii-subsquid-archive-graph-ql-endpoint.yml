@@ -1,7 +1,7 @@
 url: archive.gemini-3b.subspace.network/graphql?query=%7B__typename%7D
 status: up
 code: 200
-responseTime: 654
-lastUpdated: 2023-03-04T23:04:15.994Z
+responseTime: 489
+lastUpdated: 2023-03-05T23:04:17.352Z
 startTime: Mon Feb 20 2023 17:28:23 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
