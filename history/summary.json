@@ -22,9 +22,9 @@
     "url": "eu-0.gemini-2a.subspace.network",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "gemini-ii-eu-0-rpc-endpoint",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -33,7 +33,9 @@
     "timeWeek": 151,
     "timeMonth": 146,
     "timeYear": 146,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-03-07": 0
+    }
   },
   {
     "name": "Gemini-III EU-0 RPC endpoint",
