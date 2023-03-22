@@ -22,12 +22,8 @@ sites:
     url: "eu-2.gemini-3c.subspace.network"
   # perform easiest queries for GraphQL endpoints
   # for more details: https://www.apollographql.com/docs/apollo-server/monitoring/health-checks/#graphql-level-health-checks
-  - name: "Gemini-II Subsquid archive GraphQL endpoint"
-    url: "archive.gemini-2a.subspace.network/graphql?query=%7B__typename%7D"
   - name: "Gemini-II block explorer squid GraphQL endpoint"
     url: "squid.gemini-2a.subspace.network/graphql?query=%7B__typename%7D"
-  - name: "Gemini-II Subsquid archive API endpoint"
-    url: "archive.gemini-2a.subspace.network/api?query=%7B__typename%7D"
   - name: "Gemini-III block explorer squid GraphQL endpoint"
     url: "squid.gemini-3b.subspace.network/graphql?query=%7B__typename%7D"
   - name: "Gemini-III Subsquid archive API endpoint"
