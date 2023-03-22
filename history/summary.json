@@ -98,10 +98,10 @@
     "url": "archive.gemini-2a.subspace.network/graphql?query=%7B__typename%7D",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "gemini-ii-subsquid-archive-graph-ql-endpoint",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 617,
@@ -109,7 +109,9 @@
     "timeWeek": 645,
     "timeMonth": 625,
     "timeYear": 617,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-03-22": 1
+    }
   },
   {
     "name": "Gemini-II block explorer squid GraphQL endpoint",
@@ -148,7 +150,7 @@
     "timeMonth": 249,
     "timeYear": 249,
     "dailyMinutesDown": {
-      "2023-03-22": 20,
+      "2023-03-22": 184,
       "2023-03-21": 523
     }
   },
@@ -187,7 +189,7 @@
     "timeMonth": 638,
     "timeYear": 638,
     "dailyMinutesDown": {
-      "2023-03-22": 20,
+      "2023-03-22": 184,
       "2023-03-21": 523
     }
   },
