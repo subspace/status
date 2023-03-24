@@ -99,11 +99,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "gemini-ii-block-explorer-squid-graph-ql-endpoint",
     "status": "up",
-    "uptime": "99.32%",
+    "uptime": "99.33%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.93%",
     "uptimeMonth": "99.30%",
-    "uptimeYear": "99.32%",
+    "uptimeYear": "99.33%",
     "time": 630,
     "timeDay": 650,
     "timeWeek": 611,
@@ -149,7 +149,7 @@
     "timeMonth": 638,
     "timeYear": 638,
     "dailyMinutesDown": {
-      "2023-03-24": 21,
+      "2023-03-24": 679,
       "2023-03-23": 1440,
       "2023-03-22": 1440,
       "2023-03-21": 523
