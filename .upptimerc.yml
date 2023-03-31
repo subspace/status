@@ -17,9 +17,6 @@ sites:
   - name: "Gemini-III EU-1 RPC endpoint"
     check: "tcp-ping"
     url: "eu-1.gemini-3c.subspace.network"
-  - name: "Gemini-III EU-2 RPC endpoint"
-    check: "tcp-ping"
-    url: "eu-2.gemini-3c.subspace.network"
   # perform easiest queries for GraphQL endpoints
   # for more details: https://www.apollographql.com/docs/apollo-server/monitoring/health-checks/#graphql-level-health-checks
   - name: "Gemini-II block explorer squid GraphQL endpoint"
