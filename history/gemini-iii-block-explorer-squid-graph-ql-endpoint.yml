@@ -1,7 +1,7 @@
 url: https://squid.gemini-3b.subspace.network/graphql?query=%7B__typename%7D
 status: up
 code: 200
-responseTime: 288
-lastUpdated: 2023-04-04T23:04:22.872Z
+responseTime: 289
+lastUpdated: 2023-04-05T23:04:05.901Z
 startTime: Mon Feb 20 2023 17:28:25 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
