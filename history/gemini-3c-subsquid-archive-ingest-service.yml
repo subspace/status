@@ -1,7 +1,7 @@
-url: https://archive-0.gemini-3c.subspace.network/ingest-health
-status: down
-code: 500
-responseTime: 93
-lastUpdated: 2023-04-25T09:50:31.391Z
+url: https://archive.gemini-3c.subspace.network/ingest-health
+status: up
+code: 200
+responseTime: 119
+lastUpdated: 2023-04-25T09:57:19.152Z
 startTime: Tue Apr 25 2023 07:07:36 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
