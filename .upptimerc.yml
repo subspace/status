@@ -9,50 +9,101 @@ sites:
   - name: Subspace Labs Website
     url: https://www.subspace.network
   # Public RPC endpoints
-  - name: "Gemini-II EU-0 RPC endpoint"
+  - name: "Gemini-2a EU-0 RPC endpoint"
     check: "tcp-ping"
     url: "eu-0.gemini-2a.subspace.network"
-  - name: "Gemini-III EU-0 RPC endpoint"
+  - name: "Gemini-3c EU-0 RPC endpoint"
     check: "tcp-ping"
     url: "eu-0.gemini-3c.subspace.network"
-  - name: "Gemini-III EU-1 RPC endpoint"
+  - name: "Gemini-3c EU-1 RPC endpoint"
     check: "tcp-ping"
     url: "eu-1.gemini-3c.subspace.network"
-  # Gemini-2a squid
-  - name: "Gemini-II block explorer squid GraphQL endpoint"
-    url: "https://squid.gemini-2a.subspace.network/graphql?query=%7B__typename%7D"
-  - name: "Gemini-II block explorer squid Postgres database"
-    url: "https://squid.gemini-2a.subspace.network/db-health"
-    headers:
-    - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
-  - name: "Gemini-II block explorer squid Processor service"
-    url: "https://squid.gemini-2a.subspace.network/processor-health"
-    headers:
-    - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
-  # Gemini-3c squid
-  - name: "Gemini-III block explorer squid GraphQL endpoint"
+  - name: "Gemini-3d EU-0 RPC endpoint"
+    check: "tcp-ping"
+    url: "eu-0.gemini-3d.subspace.network"
+  - name: "Gemini-3d EU-1 RPC endpoint"
+    check: "tcp-ping"
+    url: "eu-1.gemini-3d.subspace.network"
+  # Gemini-3c squid (original)
+  - name: "Gemini-3c block explorer squid GraphQL endpoint"
     url: "https://squid.gemini-3c.subspace.network/graphql?query=%7B__typename%7D"
-  - name: "Gemini-III block explorer squid Postgres database"
+  - name: "Gemini-3c block explorer squid Postgres database"
     url: "https://squid.gemini-3c.subspace.network/db-health"
     headers:
     - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
-  - name: "Gemini-III block explorer squid Processor service"
+  - name: "Gemini-3c block explorer squid Processor service"
     url: "https://squid.gemini-3c.subspace.network/processor-health"
     headers:
     - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
-  # # Gemini-3c archive
-  - name: "Gemini-III Subsquid archive GraphQL endpoint"
+  # Gemini-3c squid (new)
+  - name: "Gemini-3c block explorer squid GraphQL endpoint"
+    url: "https://squid.gemini-3c.subspace.network/graphql"
+  - name: "Gemini-3c block explorer squid Postgres database"
+    url: "https://squid.gemini-3c.subspace.network/db-health"
+    headers:
+    - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
+  - name: "Gemini-3c block explorer squid Processor service"
+    url: "https://squid.gemini-3c.subspace.network/processor-health"
+    headers:
+    - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
+  # Gemini-3d squid
+  - name: "Gemini-3d block explorer squid GraphQL endpoint"
+    url: "https://squid.gemini-3d.subspace.network/graphql"
+  - name: "Gemini-3d block explorer squid Postgres database"
+    url: "https://squid.gemini-3d.subspace.network/db-health"
+    headers:
+    - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
+  - name: "Gemini-3d block explorer squid Processor service"
+    url: "https://squid.gemini-3d.subspace.network/processor-health"
+    headers:
+    - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
+  # Gemini-3c archive (original)
+  - name: "Gemini-3c Subsquid archive GraphQL endpoint"
     url: "https://archive.gemini-3c.subspace.network/graphql?query=%7B__typename%7D"
-  - name: "Gemini-III Subsquid archive Postgres database"
+  - name: "Gemini-3c Subsquid archive Postgres database"
     url: "https://archive.gemini-3c.subspace.network/db-health"
     headers:
     - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
-  - name: "Gemini-III Subsquid archive Ingest service"
+  - name: "Gemini-3c Subsquid archive Ingest service"
     url: "https://archive.gemini-3c.subspace.network/ingest-health"
     headers:
     - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
-  - name: "Gemini-III Subsquid archive API endpoint"
+  - name: "Gemini-3c Subsquid archive API endpoint"
     url: "https://archive.gemini-3c.subspace.network/api"
+    method: POST
+    headers:
+    - "Content-Type: application/json"
+    body: '{"query":"query { status { head } }"}'
+  # Gemini-3c archive (new)
+  - name: "Gemini-3c Subsquid archive GraphQL endpoint"
+    url: "https://archive-0.gemini-3c.subspace.network/graphql?query=%7B__typename%7D"
+  - name: "Gemini-3c Subsquid archive Postgres database"
+    url: "https://archive-0.gemini-3c.subspace.network/db-health"
+    headers:
+    - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
+  - name: "Gemini-3c Subsquid archive Ingest service"
+    url: "https://archive-0.gemini-3c.subspace.network/ingest-health"
+    headers:
+    - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
+  - name: "Gemini-3c Subsquid archive API endpoint"
+    url: "https://archive-0.gemini-3c.subspace.network/api"
+    method: POST
+    headers:
+    - "Content-Type: application/json"
+    body: '{"query":"query { status { head } }"}'
+  # Gemini-3d archive
+  - name: "Gemini-3d Subsquid archive GraphQL endpoint"
+    url: "https://archive.gemini-3d.subspace.network/graphql?query=%7B__typename%7D"
+  - name: "Gemini-3d Subsquid archive Postgres database"
+    url: "https://archive.gemini-3d.subspace.network/db-health"
+    headers:
+    - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
+  - name: "Gemini-3d Subsquid archive Ingest service"
+    url: "https://archive.gemini-3d.subspace.network/ingest-health"
+    headers:
+    - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
+  - name: "Gemini-3d Subsquid archive API endpoint"
+    url: "https://archive.gemini-3d.subspace.network/api"
     method: POST
     headers:
     - "Content-Type: application/json"
