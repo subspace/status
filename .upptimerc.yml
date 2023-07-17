@@ -21,6 +21,9 @@ sites:
   - name: "Gemini-3d EU-2 RPC endpoint"
     check: "tcp-ping"
     url: "eu-2.gemini-3d.subspace.network"
+  - name: "Gemini-3e RPC endpoint"
+    check: "tcp-ping"
+    url: "rpc.gemini-3e.subspace.network"
   # Gemini-3d squid
   - name: "Gemini-3d block explorer squid GraphQL endpoint"
     url: "https://squid.gemini-3d.subspace.network/graphql"
