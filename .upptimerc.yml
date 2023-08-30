@@ -9,9 +9,12 @@ sites:
   - name: Subspace Labs Website
     url: https://www.subspace.network
   # Public RPC endpoints
-  - name: "Gemini-3f RPC endpoint"
+  - name: "Gemini-3f RPC-0 (US) endpoint"
     check: "tcp-ping"
     url: "rpc-0.gemini-3f.subspace.network"
+  - name: "Gemini-3f RPC-1 (EU) endpoint"
+    check: "tcp-ping"
+    url: "rpc-1.gemini-3f.subspace.network"
   - name: "Gemini-3f EVM endpoint"
     check: "tcp-ping"
     url: "domain-0.evm.gemini-3f.subspace.network"
