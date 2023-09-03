@@ -43,9 +43,9 @@
     "url": "rpc-1.gemini-3f.subspace.network",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "gemini-3f-rpc-1-eu-endpoint",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -54,7 +54,9 @@
     "timeWeek": 154,
     "timeMonth": 154,
     "timeYear": 154,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-09-03": 0
+    }
   },
   {
     "name": "Gemini-3f EVM endpoint",
@@ -62,11 +64,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "gemini-3f-evm-endpoint",
     "status": "up",
-    "uptime": "63.17%",
+    "uptime": "65.34%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "60.58%",
-    "uptimeMonth": "63.17%",
-    "uptimeYear": "63.17%",
+    "uptimeMonth": "65.34%",
+    "uptimeYear": "65.34%",
     "time": 86,
     "timeDay": 77,
     "timeWeek": 60,
