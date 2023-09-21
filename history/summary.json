@@ -68,11 +68,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "gemini-3f-evm-endpoint",
     "status": "up",
-    "uptime": "89.05%",
+    "uptime": "89.18%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "89.05%",
-    "uptimeYear": "89.05%",
+    "uptimeMonth": "89.18%",
+    "uptimeYear": "89.18%",
     "time": 67,
     "timeDay": 102,
     "timeWeek": 68,
@@ -127,9 +127,9 @@
     "url": "https://squid.gemini-3f.subspace.network/graphql",
     "icon": "https://icons.duckduckgo.com/ip3/squid.gemini-3f.subspace.network.ico",
     "slug": "gemini-3f-block-explorer-squid-graph-ql-endpoint",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -138,16 +138,18 @@
     "timeWeek": 131,
     "timeMonth": 143,
     "timeYear": 143,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-09-21": 0
+    }
   },
   {
     "name": "Gemini-3f block explorer squid Postgres database",
     "url": "https://squid.gemini-3f.subspace.network/db-health",
     "icon": "https://icons.duckduckgo.com/ip3/squid.gemini-3f.subspace.network.ico",
     "slug": "gemini-3f-block-explorer-squid-postgres-database",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -156,17 +158,19 @@
     "timeWeek": 62,
     "timeMonth": 76,
     "timeYear": 76,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-09-21": 0
+    }
   },
   {
     "name": "Gemini-3f block explorer squid Processor service",
     "url": "https://squid.gemini-3f.subspace.network/processor-health",
     "icon": "https://icons.duckduckgo.com/ip3/squid.gemini-3f.subspace.network.ico",
     "slug": "gemini-3f-block-explorer-squid-processor-service",
-    "status": "up",
+    "status": "down",
     "uptime": "99.94%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "99.91%",
+    "uptimeDay": "99.99%",
+    "uptimeWeek": "99.90%",
     "uptimeMonth": "99.94%",
     "uptimeYear": "99.94%",
     "time": 40,
@@ -175,6 +179,7 @@
     "timeMonth": 40,
     "timeYear": 40,
     "dailyMinutesDown": {
+      "2023-09-21": 0,
       "2023-09-14": 10,
       "2023-09-13": 14
     }
