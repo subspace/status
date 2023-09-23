@@ -127,9 +127,9 @@
     "url": "https://squid.gemini-3f.subspace.network/graphql",
     "icon": "https://icons.duckduckgo.com/ip3/squid.gemini-3f.subspace.network.ico",
     "slug": "gemini-3f-block-explorer-squid-graph-ql-endpoint",
-    "status": "up",
+    "status": "down",
     "uptime": "99.84%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "99.35%",
     "uptimeMonth": "99.84%",
     "uptimeYear": "99.84%",
@@ -139,6 +139,7 @@
     "timeMonth": 139,
     "timeYear": 139,
     "dailyMinutesDown": {
+      "2023-09-23": 0,
       "2023-09-21": 65
     }
   },
@@ -147,9 +148,9 @@
     "url": "https://squid.gemini-3f.subspace.network/db-health",
     "icon": "https://icons.duckduckgo.com/ip3/squid.gemini-3f.subspace.network.ico",
     "slug": "gemini-3f-block-explorer-squid-postgres-database",
-    "status": "up",
+    "status": "down",
     "uptime": "99.84%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "99.35%",
     "uptimeMonth": "99.84%",
     "uptimeYear": "99.84%",
@@ -159,6 +160,7 @@
     "timeMonth": 74,
     "timeYear": 74,
     "dailyMinutesDown": {
+      "2023-09-23": 0,
       "2023-09-21": 65
     }
   },
@@ -167,9 +169,9 @@
     "url": "https://squid.gemini-3f.subspace.network/processor-health",
     "icon": "https://icons.duckduckgo.com/ip3/squid.gemini-3f.subspace.network.ico",
     "slug": "gemini-3f-block-explorer-squid-processor-service",
-    "status": "up",
+    "status": "down",
     "uptime": "99.78%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "99.35%",
     "uptimeMonth": "99.78%",
     "uptimeYear": "99.78%",
@@ -179,6 +181,7 @@
     "timeMonth": 39,
     "timeYear": 39,
     "dailyMinutesDown": {
+      "2023-09-23": 0,
       "2023-09-21": 65,
       "2023-09-14": 10,
       "2023-09-13": 14
@@ -189,9 +192,9 @@
     "url": "https://archive.gemini-3f.subspace.network/graphql?query=%7B__typename%7D",
     "icon": "https://icons.duckduckgo.com/ip3/archive.gemini-3f.subspace.network.ico",
     "slug": "gemini-3f-subsquid-archive-graph-ql-endpoint",
-    "status": "up",
+    "status": "down",
     "uptime": "99.63%",
-    "uptimeDay": "89.51%",
+    "uptimeDay": "89.49%",
     "uptimeWeek": "98.50%",
     "uptimeMonth": "99.63%",
     "uptimeYear": "99.63%",
@@ -209,9 +212,9 @@
     "url": "https://archive.gemini-3f.subspace.network/db-health",
     "icon": "https://icons.duckduckgo.com/ip3/archive.gemini-3f.subspace.network.ico",
     "slug": "gemini-3f-subsquid-archive-postgres-database",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -220,16 +223,18 @@
     "timeWeek": 66,
     "timeMonth": 70,
     "timeYear": 70,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-09-23": 0
+    }
   },
   {
     "name": "Gemini-3f Subsquid archive Ingest service",
     "url": "https://archive.gemini-3f.subspace.network/ingest-health",
     "icon": "https://icons.duckduckgo.com/ip3/archive.gemini-3f.subspace.network.ico",
     "slug": "gemini-3f-subsquid-archive-ingest-service",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -238,16 +243,18 @@
     "timeWeek": 40,
     "timeMonth": 44,
     "timeYear": 44,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-09-23": 0
+    }
   },
   {
     "name": "Gemini-3f Subsquid archive API endpoint",
     "url": "https://archive.gemini-3f.subspace.network/api",
     "icon": "https://icons.duckduckgo.com/ip3/archive.gemini-3f.subspace.network.ico",
     "slug": "gemini-3f-subsquid-archive-api-endpoint",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -256,6 +263,8 @@
     "timeWeek": 40,
     "timeMonth": 44,
     "timeYear": 44,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-09-23": 0
+    }
   }
 ]
