@@ -4,10 +4,9 @@ repo: status # The name of this repository
 
 assignees:
   - DaMandal0rian
-  - isSerge
 sites:
-  - name: Subspace Labs Website
-    url: https://www.subspace.network
+#  - name: Subspace Labs Website
+#    url: https://www.subspace.network
   # Public RPC endpoints
   - name: "Gemini-3f RPC-0 (US) endpoint"
     check: "tcp-ping"
@@ -18,9 +17,6 @@ sites:
   - name: "Gemini-3f EVM endpoint"
     check: "tcp-ping"
     url: "domain-3.evm.gemini-3f.subspace.network"
-  - name: "Gemini-3c EU-0 RPC endpoint"
-    check: "tcp-ping"
-    url: "eu-0.gemini-3c.subspace.network"
   - name: "Gemini-2a EU-0 RPC endpoint"
     check: "tcp-ping"
     url: "eu-0.gemini-2a.subspace.network"
