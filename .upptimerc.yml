@@ -24,10 +24,10 @@ sites:
   # Gemini-3g squid
   - name: "Gemini-3g block explorer squid GraphQL endpoint"
     url: "https://squid.gemini-3g.subspace.network/graphql"
-  # - name: "Gemini-3g block explorer squid Postgres database"
-  #   url: "https://squid.gemini-3g.subspace.network/db-health"
-  #   headers:
-  #   - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
+  - name: "Gemini-3g block explorer squid Postgres database"
+    url: "https://squid.gemini-3g.subspace.network/db-health"
+    headers:
+    - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
   - name: "Gemini-3g block explorer squid Processor service"
     url: "https://squid.gemini-3g.subspace.network/processor-health"
     headers:
@@ -35,10 +35,10 @@ sites:
   # Gemini-3g Nova squid
   - name: "Gemini-3g Nova block explorer squid GraphQL endpoint"
     url: "https://nova.squid.gemini-3g.subspace.network/graphql"
-  # - name: "Gemini-3g Nova block explorer squid Postgres database"
-  #   url: "https://nova.squid.gemini-3g.subspace.network/db-health"
-  #   headers:
-  #   - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
+  - name: "Gemini-3g Nova block explorer squid Postgres database"
+    url: "https://nova.squid.gemini-3g.subspace.network/db-health"
+    headers:
+    - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
   - name: "Gemini-3g Nova block explorer squid Processor service"
     url: "https://nova.squid.gemini-3g.subspace.network/processor-health"
     headers:
