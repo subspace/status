@@ -8,6 +8,58 @@ sites:
 #  - name: Subspace Labs Website
 #    url: https://www.subspace.network
   # Public RPC endpoints
+  - name: "Gemini-3g RPC-0 (US) endpoint"
+    check: "tcp-ping"
+    url: "rpc-0.gemini-3g.subspace.network"
+  - name: "Gemini-3g RPC-1 (EU) endpoint"
+    check: "tcp-ping"
+    url: "rpc-1.gemini-3g.subspace.network"
+  - name: "Gemini-3g Nova RPC endpoint"
+    check: "tcp-ping"
+    url: "nova.gemini-3g.subspace.network"
+  # Gemini-3g Nova Blockscout Explorer
+  - name: "Gemini-3g Nova Block Explorer endpoint"
+    check: "tcp-ping"
+    url: "nova.subspace.network"
+  # Gemini-3g squid
+  - name: "Gemini-3g block explorer squid GraphQL endpoint"
+    url: "https://squid.gemini-3g.subspace.network/graphql"
+  - name: "Gemini-3g block explorer squid Postgres database"
+    url: "https://squid.gemini-3g.subspace.network/db-health"
+    headers:
+    - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
+  - name: "Gemini-3g block explorer squid Processor service"
+    url: "https://squid.gemini-3g.subspace.network/processor-health"
+    headers:
+    - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
+  # Gemini-3g Nova squid
+  - name: "Gemini-3g Nova block explorer squid GraphQL endpoint"
+    url: "https://nova.squid.gemini-3g.subspace.network/graphql"
+  - name: "Gemini-3g Nova block explorer squid Postgres database"
+    url: "https://nova.squid.gemini-3g.subspace.network/db-health"
+    headers:
+    - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
+  - name: "Gemini-3g Nova block explorer squid Processor service"
+    url: "https://nova.squid.gemini-3g.subspace.network/processor-health"
+    headers:
+    - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
+  # Gemini-3g Nova archive
+  - name: "Gemini-3g Nova Subsquid archive GraphQL endpoint"
+    url: "https://nova.archive.gemini-3g.subspace.network/graphql?query=%7B__typename%7D"
+  - name: "Gemini-3g Nova Subsquid archive Postgres database"
+    url: "https://nova.archive.gemini-3g.subspace.network/db-health"
+    headers:
+    - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
+  - name: "Gemini-3g Nova Subsquid archive Ingest service"
+    url: "https://nova.archive.gemini-3g.subspace.network/ingest-health"
+    headers:
+    - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
+  - name: "Gemini-3g Nova archive API endpoint"
+    url: "https://nova.archive.gemini-3g.subspace.network/api"
+    method: POST
+    headers:
+    - "Content-Type: application/json"
+    body: '{"query":"query { status { head } }"}'
   - name: "Gemini-3f RPC-0 (US) endpoint"
     check: "tcp-ping"
     url: "rpc-0.gemini-3f.subspace.network"
