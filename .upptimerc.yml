@@ -60,46 +60,11 @@ sites:
     headers:
     - "Content-Type: application/json"
     body: '{"query":"query { status { head } }"}'
-  - name: "Gemini-3f RPC-0 (US) endpoint"
-    check: "tcp-ping"
-    url: "rpc-0.gemini-3f.subspace.network"
+
+  # Gemini-3f RPC
   - name: "Gemini-3f RPC-1 (EU) endpoint"
     check: "tcp-ping"
     url: "rpc-1.gemini-3f.subspace.network"
-  - name: "Gemini-3f EVM endpoint"
-    check: "tcp-ping"
-    url: "domain-3.evm.gemini-3f.subspace.network"
-  - name: "Gemini-2a EU-0 RPC endpoint"
-    check: "tcp-ping"
-    url: "eu-0.gemini-2a.subspace.network"
-  # Gemini-3f squid
-  - name: "Gemini-3f block explorer squid GraphQL endpoint"
-    url: "https://squid.gemini-3f.subspace.network/graphql"
-  - name: "Gemini-3f block explorer squid Postgres database"
-    url: "https://squid.gemini-3f.subspace.network/db-health"
-    headers:
-    - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
-  - name: "Gemini-3f block explorer squid Processor service"
-    url: "https://squid.gemini-3f.subspace.network/processor-health"
-    headers:
-    - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
-  # Gemini-3f archive
-  - name: "Gemini-3f Subsquid archive GraphQL endpoint"
-    url: "https://archive.gemini-3f.subspace.network/graphql?query=%7B__typename%7D"
-  - name: "Gemini-3f Subsquid archive Postgres database"
-    url: "https://archive.gemini-3f.subspace.network/db-health"
-    headers:
-    - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
-  - name: "Gemini-3f Subsquid archive Ingest service"
-    url: "https://archive.gemini-3f.subspace.network/ingest-health"
-    headers:
-    - "Authorization: Bearer $HEALTH_SERVICE_SECRET"
-  - name: "Gemini-3f Subsquid archive API endpoint"
-    url: "https://archive.gemini-3f.subspace.network/api"
-    method: POST
-    headers:
-    - "Content-Type: application/json"
-    body: '{"query":"query { status { head } }"}'
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
