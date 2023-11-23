@@ -1,7 +1,7 @@
 url: https://nova.archive.gemini-3g.subspace.network/graphql?query=%7B__typename%7D
 status: up
 code: 200
-responseTime: 551
-lastUpdated: 2023-11-22T23:04:42.281Z
+responseTime: 515
+lastUpdated: 2023-11-23T23:04:28.989Z
 startTime: Thu Nov 16 2023 10:36:44 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
